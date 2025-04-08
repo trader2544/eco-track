@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Leaf, GitHub, Twitter, Instagram } from 'lucide-react';
+import { Leaf, Github, Twitter, Instagram } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -43,7 +42,7 @@ export const Footer = () => {
               <h4 className="font-medium text-base">Connect</h4>
               <div className="flex space-x-4">
                 <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors text-muted-foreground">
-                  <GitHub className="h-5 w-5" />
+                  <Github className="h-5 w-5" />
                   <span className="sr-only">GitHub</span>
                 </a>
                 <a href="https://twitter.com" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors text-muted-foreground">
