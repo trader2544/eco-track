@@ -8,25 +8,25 @@ const About = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Dr. Sarah Kamau",
+      name: "Emma Thompson",
       role: "Environmental Scientist",
       imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200"
     },
     {
       id: 2,
-      name: "John Odhiambo",
+      name: "James Anderson",
       role: "Data Analyst",
       imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200"
     },
     {
       id: 3,
-      name: "Grace Mwangi",
+      name: "Sophie Williams",
       role: "Conservation Specialist",
       imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200&h=200"
     },
     {
       id: 4,
-      name: "David Kimani",
+      name: "Michael Roberts",
       role: "Tech Lead",
       imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200&h=200"
     }
