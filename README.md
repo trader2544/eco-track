@@ -1,73 +1,102 @@
-# Welcome to your Lovable project
 
-## Project info
+# Eco Track
 
-**URL**: https://lovable.dev/projects/539942b5-22b9-462f-9703-1381c27a6441
+## Overview
 
-## How can I edit this code?
+**Eco Track** is a private web application project built with **TypeScript**, designed to provide a modern and efficient platform for tracking and managing environmental or sustainability-related activities. This project emphasizes scalability, maintainability, and clean code architecture.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **TypeScript-based**: Ensures type safety and improved development efficiency (97.7% of the codebase).
+- **CSS Styling**: Responsive and modern design using custom styles (1.4% of the codebase).
+- **Additional Tools and Libraries**: Includes other supportive technologies for enhanced functionality (0.9% of the codebase).
+- Private repository for secure and focused development.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/539942b5-22b9-462f-9703-1381c27a6441) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+Before setting up the project, ensure the following tools are installed on your local machine:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/trader2544/green-watch-web-app.git
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Navigate to the project directory:
+   ```bash
+   cd green-watch-web-app
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Usage
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. Start the development server:
+   ```bash
+   npm run start
+   ```
+   or
+   ```bash
+   yarn start
+   ```
 
-**Edit a file directly in GitHub**
+2. Open your browser and navigate to `http://localhost:3000` to view the app.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Development Workflow
 
-**Use GitHub Codespaces**
+### Branching Strategy
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Adopt the following branching strategy to maintain a clean codebase:
 
-## What technologies are used for this project?
+- `main`: Stable production-ready branch.
+- `dev`: Development branch for integrating features and fixes.
+- Feature branches: Use `feature/feature-name` for new features.
+- Bug fix branches: Use `fix/bug-name` for resolving issues.
 
-This project is built with:
+### Available Scripts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- `npm run start`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm run test`: Runs the test suite.
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/539942b5-22b9-462f-9703-1381c27a6441) and click on Share -> Publish.
+Contributions are welcome! Follow these steps to contribute:
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository.
+2. Create a new branch for your changes:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add feature-name"
+   ```
+4. Push the changes to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request for review.
 
-Yes it is!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Currently, this project does not have a specified license. Contact the repository owner for further details.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Contact
+
+For inquiries or feedback, you can reach out to:
+
+- **GitHub**: [trader2544](https://github.com/trader2544)
